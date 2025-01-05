@@ -64,7 +64,6 @@ This application is built without using any calendar libraries, ensuring a custo
 1. Clone the Repository:
    ```bash
    git clone <repository_url>
-   cd calendar-task-manager
    ```
 
 2. Install Dependencies:
@@ -82,7 +81,7 @@ This application is built without using any calendar libraries, ensuring a custo
 3. Set Up Environment Variables:
    - Create a `.env` file in the `backend` folder with the following variables:
      ```env
-     PORT=5000
+     PORT=3030
      MONGO_URI=<your_mongodb_connection_string>
      ```
 
@@ -90,15 +89,15 @@ This application is built without using any calendar libraries, ensuring a custo
    - Run the backend server:
      ```bash
      cd backend
-     npm start
+     node index.js
      ```
    - Run the frontend:
      ```bash
      cd ../frontend
-     npm start
+     react-scripts start
      ```
 
-5. Access the application at `http://localhost:5173`.
+5. Access the application at `http://localhost:3000`.
 
 ---
 
